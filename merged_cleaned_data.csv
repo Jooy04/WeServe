@@ -1,0 +1,601 @@
+callID,callDurationInSeconds,agentsGradeLevel,callType,callEndedByAgent,callerID,agentID,complaintTopic,assignedTo,status,resolutionDurationInHours
+1,00:01:37,A,inbound,False,CALLER_1,163,Billing discrepancy,122,CLOSED,1 days 09:00:00
+2,00:01:04,E,inbound,True,CALLER_2,133,Difficulty reaching customer support,133,NEW,0 days 00:00:00
+3,00:01:40,C,inbound,False,CALLER_3,153,Wrong item received,122,RESOLVED,0 days 00:00:00
+4,00:01:09,D,outbound,True,CALLER_4,161,Unauthorized charges,151,PENDING,0 days 00:00:00
+5,00:01:36,D,inbound,True,CALLER_5,148,Unprofessional behavior,148,NEW,0 days 00:00:00
+6,00:02:00,A,inbound,True,CALLER_6,157,Inadequate product instructions,125,CLOSED,0 days 18:00:00
+7,00:01:28,C,inbound,True,CALLER_7,179,Unsatisfactory resolution,125,RESOLVED,0 days 00:00:00
+8,00:01:48,D,inbound,True,CALLER_8,171,Rude customer service representative,171,PENDING,0 days 00:00:00
+9,00:02:25,C,inbound,True,CALLER_9,161,Website not working,161,NEW,0 days 00:00:00
+10,00:02:08,F,inbound,True,CALLER_10,159,Product damaged during shipping,135,RESOLVED,0 days 00:00:00
+11,00:02:10,A,outbound,True,CALLER_11,147,Inadequate product instructions,133,CLOSED,0 days 18:00:00
+12,00:01:49,D,inbound,True,CALLER_12,143,Inaccurate information provided,122,PENDING,0 days 00:00:00
+13,00:02:28,F,outbound,False,CALLER_13,124,Slow response time,132,RESOLVED,0 days 00:00:00
+14,00:01:22,D,inbound,True,CALLER_14,151,Unsatisfactory resolution,136,RESOLVED,0 days 00:00:00
+15,00:01:00,F,inbound,True,CALLER_15,171,Slow response time,171,NEW,0 days 00:00:00
+16,00:02:12,A,inbound,False,CALLER_16,131,Difficulty getting a refund,169,PENDING,0 days 00:00:00
+17,00:01:22,D,inbound,True,CALLER_17,179,Long wait time,155,CLOSED,1 days 20:00:00
+18,00:01:10,A,outbound,True,CALLER_18,130,Website not working,155,CLOSED,0 days 13:00:00
+19,00:01:35,E,outbound,True,CALLER_19,159,Shipping delay,159,CLOSED,1 days 08:00:00
+20,00:01:07,F,inbound,False,CALLER_20,131,Misplaced order,131,CLOSED,1 days 20:00:00
+21,00:01:12,A,outbound,True,CALLER_21,121,Unprofessional behavior,121,NEW,0 days 00:00:00
+22,00:02:05,E,outbound,False,CALLER_22,121,Refund not processed,133,RESOLVED,0 days 00:00:00
+23,00:01:11,E,outbound,True,CALLER_23,177,Unprofessional behavior,158,NEW,0 days 00:00:00
+24,00:01:34,A,inbound,False,CALLER_24,173,Shipping delay,137,RESOLVED,0 days 00:00:00
+25,00:01:07,C,inbound,True,CALLER_25,162,Package never arrived,162,CLOSED,0 days 17:00:00
+26,00:01:15,C,inbound,False,CALLER_26,124,Lack of follow-up,143,NEW,0 days 00:00:00
+27,00:02:11,E,inbound,False,CALLER_27,168,Lack of follow-up,166,PENDING,0 days 00:00:00
+28,00:01:26,C,inbound,False,CALLER_28,146,Billing discrepancy,133,PENDING,0 days 00:00:00
+29,00:01:17,F,inbound,True,CALLER_29,151,Product not as described,173,CLOSED,1 days 02:00:00
+30,00:01:32,F,outbound,True,CALLER_30,172,Long wait time,133,CLOSED,1 days 11:00:00
+31,00:02:22,A,outbound,False,CALLER_31,161,Unsatisfactory resolution,179,CLOSED,0 days 14:00:00
+32,00:01:25,E,inbound,False,CALLER_32,157,Lack of follow-up,157,NEW,0 days 00:00:00
+33,00:01:30,F,outbound,True,CALLER_33,138,Incorrect charges,138,RESOLVED,0 days 00:00:00
+34,00:01:01,F,outbound,True,CALLER_34,142,Product damaged during shipping,140,CLOSED,1 days 03:00:00
+35,00:01:45,E,inbound,True,CALLER_35,123,Unauthorized charges,123,PENDING,0 days 00:00:00
+36,00:01:07,F,outbound,False,CALLER_36,180,Incorrect order,167,PENDING,0 days 00:00:00
+37,00:01:54,F,inbound,True,CALLER_37,135,Incorrect charges,145,CLOSED,1 days 02:00:00
+38,00:01:43,A,inbound,True,CALLER_38,179,Unauthorized charges,143,PENDING,0 days 00:00:00
+39,00:01:06,C,inbound,True,CALLER_39,129,Rude customer service representative,129,PENDING,0 days 00:00:00
+40,00:02:13,A,outbound,False,CALLER_40,122,Rude customer service representative,146,NEW,0 days 00:00:00
+41,00:01:46,C,inbound,True,CALLER_41,159,Poor communication,144,PENDING,0 days 00:00:00
+42,00:01:04,F,inbound,False,CALLER_42,156,Website not working,156,PENDING,0 days 00:00:00
+43,00:01:01,C,inbound,False,CALLER_43,144,Poor communication,161,PENDING,0 days 00:00:00
+44,00:01:31,D,inbound,True,CALLER_44,171,Difficulty reaching customer support,177,RESOLVED,0 days 00:00:00
+45,00:01:35,C,inbound,True,CALLER_45,172,Lost package,172,CLOSED,1 days 12:00:00
+46,00:01:55,C,inbound,False,CALLER_46,156,Difficulty reaching customer support,141,CLOSED,1 days 14:00:00
+47,00:02:25,E,outbound,True,CALLER_47,172,Difficulty cancelling subscription,172,RESOLVED,0 days 00:00:00
+48,00:02:16,E,outbound,True,CALLER_48,135,Difficulty reaching customer support,135,PENDING,0 days 00:00:00
+49,00:01:26,D,outbound,True,CALLER_49,171,Inadequate product instructions,171,CLOSED,0 days 18:00:00
+50,00:01:42,F,inbound,True,CALLER_50,160,Product not as described,172,PENDING,0 days 00:00:00
+51,00:01:46,E,inbound,True,CALLER_51,180,Unsatisfactory resolution,180,CLOSED,1 days 06:00:00
+52,00:02:19,E,inbound,True,CALLER_52,160,Website not working,160,CLOSED,1 days 17:00:00
+53,00:01:53,C,outbound,True,CALLER_53,158,Slow response time,158,PENDING,0 days 00:00:00
+54,00:01:41,E,inbound,True,CALLER_54,167,Long wait time,167,CLOSED,1 days 07:00:00
+55,00:01:38,C,inbound,True,CALLER_55,157,Shipping delay,157,CLOSED,0 days 13:00:00
+56,00:01:25,A,inbound,True,CALLER_56,133,Package never arrived,133,CLOSED,1 days 05:00:00
+57,00:01:55,F,inbound,True,CALLER_57,176,Incorrect order,132,RESOLVED,0 days 00:00:00
+58,00:01:46,A,outbound,True,CALLER_58,177,Package never arrived,177,CLOSED,0 days 03:00:00
+59,00:02:00,A,outbound,True,CALLER_59,132,Product damaged during shipping,124,CLOSED,0 days 04:00:00
+60,00:01:54,E,outbound,True,CALLER_60,163,Package delivered to wrong address,163,NEW,0 days 00:00:00
+61,00:01:54,A,inbound,True,CALLER_61,177,Unauthorized charges,177,CLOSED,1 days 17:00:00
+62,00:01:47,F,inbound,True,CALLER_62,140,Website not working,140,PENDING,0 days 00:00:00
+63,00:02:23,D,inbound,False,CALLER_63,152,Shipping delay,158,PENDING,0 days 00:00:00
+64,00:02:08,A,inbound,True,CALLER_64,131,Billing discrepancy,131,RESOLVED,0 days 00:00:00
+65,00:01:04,C,inbound,True,CALLER_65,166,Billing discrepancy,166,CLOSED,0 days 05:00:00
+66,00:01:19,D,outbound,True,CALLER_66,154,Product damaged during shipping,139,PENDING,0 days 00:00:00
+67,00:02:17,E,inbound,True,CALLER_67,124,Incorrect charges,124,NEW,0 days 00:00:00
+68,00:01:30,E,inbound,False,CALLER_68,146,Unsatisfactory resolution,146,CLOSED,1 days 04:00:00
+69,00:01:50,D,inbound,False,CALLER_69,131,Package never arrived,156,RESOLVED,0 days 00:00:00
+70,00:02:23,C,outbound,False,CALLER_70,175,Poor communication,159,RESOLVED,0 days 00:00:00
+71,00:01:52,D,inbound,True,CALLER_71,132,Unhelpful support,160,CLOSED,1 days 04:00:00
+72,00:01:52,A,inbound,True,CALLER_72,128,Poor communication,171,PENDING,0 days 00:00:00
+73,00:01:48,D,inbound,True,CALLER_73,150,Product not delivered,150,CLOSED,1 days 13:00:00
+74,00:02:00,D,inbound,True,CALLER_74,146,Billing discrepancy,146,PENDING,0 days 00:00:00
+75,00:02:17,E,outbound,True,CALLER_75,124,Long wait time,173,NEW,0 days 00:00:00
+76,00:01:05,E,inbound,False,CALLER_76,135,Product not delivered,135,CLOSED,0 days 08:00:00
+77,00:01:40,F,inbound,True,CALLER_77,121,Unhelpful support,121,NEW,0 days 00:00:00
+78,00:02:19,A,outbound,False,CALLER_78,170,Unhelpful support,135,PENDING,0 days 00:00:00
+79,00:01:35,A,outbound,False,CALLER_79,166,Misplaced order,133,PENDING,0 days 00:00:00
+80,00:01:36,D,outbound,True,CALLER_80,149,Product damaged during shipping,149,RESOLVED,0 days 00:00:00
+81,00:01:20,D,outbound,False,CALLER_81,123,Lost package,170,NEW,0 days 00:00:00
+82,00:01:54,C,inbound,True,CALLER_82,123,Package never arrived,161,PENDING,0 days 00:00:00
+83,00:01:54,C,inbound,False,CALLER_83,137,Long wait time,137,RESOLVED,0 days 00:00:00
+84,00:01:48,E,outbound,True,CALLER_84,123,Unhelpful support,123,NEW,0 days 00:00:00
+85,00:01:14,A,inbound,True,CALLER_85,170,Poor quality product,159,PENDING,0 days 00:00:00
+86,00:01:48,A,outbound,False,CALLER_86,168,Inaccurate information provided,125,PENDING,0 days 00:00:00
+87,00:01:49,E,inbound,True,CALLER_87,143,Misplaced order,140,RESOLVED,0 days 00:00:00
+88,00:01:58,E,inbound,True,CALLER_88,141,Unhelpful support,145,PENDING,0 days 00:00:00
+89,00:01:32,A,inbound,True,CALLER_89,163,Slow response time,163,PENDING,0 days 00:00:00
+90,00:01:41,F,outbound,True,CALLER_90,136,Website not working,136,PENDING,0 days 00:00:00
+91,00:01:38,C,inbound,True,CALLER_91,176,Unsatisfactory resolution,176,PENDING,0 days 00:00:00
+92,00:02:08,A,inbound,True,CALLER_92,139,Wrong item received,144,NEW,0 days 00:00:00
+93,00:01:56,E,outbound,True,CALLER_93,123,Unprofessional behavior,123,NEW,0 days 00:00:00
+94,00:02:17,E,inbound,False,CALLER_94,150,Wrong item received,150,CLOSED,1 days 01:00:00
+95,00:01:55,C,inbound,True,CALLER_95,147,Difficulty cancelling subscription,177,CLOSED,1 days 13:00:00
+96,00:02:19,D,inbound,True,CALLER_96,147,Lost package,130,PENDING,0 days 00:00:00
+97,00:01:48,D,outbound,True,CALLER_97,146,Product not as described,146,RESOLVED,0 days 00:00:00
+98,00:01:40,E,inbound,True,CALLER_98,147,Unhelpful support,143,CLOSED,1 days 05:00:00
+99,00:02:22,E,inbound,False,CALLER_99,128,Unsatisfactory resolution,130,CLOSED,0 days 17:00:00
+100,00:02:00,A,inbound,True,CALLER_100,123,Lost package,123,CLOSED,2 days 00:00:00
+101,00:01:59,D,outbound,False,CALLER_101,134,Poor communication,134,NEW,0 days 00:00:00
+102,00:02:18,C,inbound,True,CALLER_102,176,Inaccurate information provided,176,PENDING,0 days 00:00:00
+103,00:02:23,D,inbound,True,CALLER_103,147,Refund not processed,129,NEW,0 days 00:00:00
+104,00:01:29,C,inbound,True,CALLER_104,132,Incorrect order,132,PENDING,0 days 00:00:00
+105,00:02:09,D,inbound,True,CALLER_105,160,Slow response time,160,CLOSED,1 days 19:00:00
+106,00:01:42,D,inbound,False,CALLER_106,131,Product not as described,162,PENDING,0 days 00:00:00
+107,00:02:16,A,outbound,True,CALLER_107,143,Product not as described,143,NEW,0 days 00:00:00
+108,00:01:07,E,outbound,True,CALLER_108,158,Product damaged during shipping,148,CLOSED,0 days 11:00:00
+109,00:01:54,E,inbound,True,CALLER_109,158,Product not as described,175,CLOSED,0 days 14:00:00
+110,00:02:21,F,inbound,False,CALLER_110,146,Inaccurate information provided,146,CLOSED,1 days 06:00:00
+111,00:01:16,A,inbound,True,CALLER_111,122,Product damaged during shipping,122,PENDING,0 days 00:00:00
+112,00:02:18,F,inbound,True,CALLER_112,144,Rude customer service representative,163,NEW,0 days 00:00:00
+113,00:01:44,E,outbound,True,CALLER_113,147,Inaccurate information provided,132,PENDING,0 days 00:00:00
+114,00:01:26,D,outbound,True,CALLER_114,179,Poor communication,137,PENDING,0 days 00:00:00
+115,00:01:45,E,inbound,True,CALLER_115,158,Slow response time,152,PENDING,0 days 00:00:00
+116,00:01:20,A,outbound,True,CALLER_116,173,Difficulty getting a refund,148,PENDING,0 days 00:00:00
+117,00:02:04,F,inbound,False,CALLER_117,148,Shipping delay,147,RESOLVED,0 days 00:00:00
+118,00:01:47,F,outbound,False,CALLER_118,178,Difficulty cancelling subscription,178,RESOLVED,0 days 00:00:00
+119,00:01:26,A,outbound,True,CALLER_119,176,Slow response time,138,CLOSED,1 days 02:00:00
+120,00:01:48,C,outbound,False,CALLER_120,139,Product not as described,140,NEW,0 days 00:00:00
+121,00:02:16,C,inbound,False,CALLER_121,137,Package never arrived,137,PENDING,0 days 00:00:00
+122,00:02:17,C,inbound,False,CALLER_122,177,Unhelpful support,177,PENDING,0 days 00:00:00
+123,00:01:53,E,inbound,True,CALLER_123,174,Refund not processed,136,RESOLVED,0 days 00:00:00
+124,00:02:28,A,inbound,False,CALLER_124,130,Rude customer service representative,130,PENDING,0 days 00:00:00
+125,00:02:04,E,outbound,False,CALLER_125,123,Unsatisfactory resolution,142,RESOLVED,0 days 00:00:00
+126,00:02:04,E,inbound,False,CALLER_126,154,Inadequate product instructions,143,NEW,0 days 00:00:00
+127,00:01:56,A,inbound,True,CALLER_127,132,Product not delivered,123,PENDING,0 days 00:00:00
+128,00:01:15,E,outbound,True,CALLER_128,164,Slow response time,164,PENDING,0 days 00:00:00
+129,00:02:06,C,outbound,False,CALLER_129,154,Unauthorized charges,180,CLOSED,1 days 10:00:00
+130,00:02:09,D,outbound,False,CALLER_130,146,Poor communication,170,PENDING,0 days 00:00:00
+131,00:01:58,A,inbound,False,CALLER_131,177,Product damaged during shipping,156,NEW,0 days 00:00:00
+132,00:01:17,F,inbound,True,CALLER_132,176,Incorrect charges,176,PENDING,0 days 00:00:00
+133,00:01:53,D,inbound,False,CALLER_133,141,Website not working,141,NEW,0 days 00:00:00
+134,00:02:16,F,inbound,True,CALLER_134,131,Slow response time,146,PENDING,0 days 00:00:00
+135,00:01:42,E,inbound,True,CALLER_135,130,Long wait time,141,PENDING,0 days 00:00:00
+136,00:01:55,F,outbound,True,CALLER_136,132,Unresolved issue,156,PENDING,0 days 00:00:00
+137,00:01:36,C,inbound,True,CALLER_137,168,Inaccurate information provided,167,PENDING,0 days 00:00:00
+138,00:01:30,C,inbound,True,CALLER_138,164,Difficulty cancelling subscription,159,CLOSED,0 days 07:00:00
+139,00:02:06,A,outbound,True,CALLER_139,124,Rude customer service representative,122,PENDING,0 days 00:00:00
+140,00:01:46,E,inbound,True,CALLER_140,175,Wrong item received,169,CLOSED,1 days 23:00:00
+141,00:01:42,C,outbound,True,CALLER_141,130,Unsatisfactory resolution,168,PENDING,0 days 00:00:00
+142,00:01:03,C,inbound,False,CALLER_142,128,Lack of follow-up,137,PENDING,0 days 00:00:00
+143,00:01:00,C,inbound,False,CALLER_143,136,Unprofessional behavior,136,PENDING,0 days 00:00:00
+144,00:01:09,A,outbound,True,CALLER_144,157,Refund not processed,133,CLOSED,0 days 16:00:00
+145,00:01:03,D,inbound,True,CALLER_145,150,Incorrect order,150,NEW,0 days 00:00:00
+146,00:01:46,E,inbound,True,CALLER_146,129,Poor communication,129,RESOLVED,0 days 00:00:00
+147,00:01:42,F,outbound,True,CALLER_147,122,Package never arrived,157,PENDING,0 days 00:00:00
+148,00:01:20,D,outbound,False,CALLER_148,141,Difficulty getting a refund,160,CLOSED,0 days 09:00:00
+149,00:01:38,A,inbound,True,CALLER_149,121,Lack of follow-up,178,CLOSED,0 days 07:00:00
+150,00:01:57,F,inbound,True,CALLER_150,153,Wrong item received,138,PENDING,0 days 00:00:00
+151,00:01:36,E,inbound,False,CALLER_151,134,Difficulty cancelling subscription,134,PENDING,0 days 00:00:00
+152,00:01:33,E,inbound,True,CALLER_152,144,Product not as described,171,CLOSED,1 days 19:00:00
+153,00:02:13,D,inbound,False,CALLER_153,159,Product not delivered,134,RESOLVED,0 days 00:00:00
+154,00:02:19,F,inbound,True,CALLER_154,141,Poor communication,158,PENDING,0 days 00:00:00
+155,00:01:15,D,outbound,False,CALLER_155,125,Package delivered to wrong address,162,PENDING,0 days 00:00:00
+156,00:02:22,C,inbound,False,CALLER_156,129,Unhelpful support,129,RESOLVED,0 days 00:00:00
+157,00:01:13,A,inbound,False,CALLER_157,134,Inaccurate information provided,134,CLOSED,1 days 22:00:00
+158,00:01:16,D,inbound,True,CALLER_158,131,Misplaced order,131,PENDING,0 days 00:00:00
+159,00:01:14,C,inbound,True,CALLER_159,136,Difficulty reaching customer support,136,PENDING,0 days 00:00:00
+160,00:01:24,D,inbound,False,CALLER_160,162,Difficulty cancelling subscription,162,PENDING,0 days 00:00:00
+161,00:01:35,D,inbound,True,CALLER_161,153,Long wait time,159,PENDING,0 days 00:00:00
+162,00:01:15,E,inbound,True,CALLER_162,156,Unsatisfactory resolution,137,PENDING,0 days 00:00:00
+163,00:01:41,F,inbound,True,CALLER_163,149,Poor communication,141,CLOSED,2 days 00:00:00
+164,00:01:20,C,inbound,True,CALLER_164,141,Product not as described,168,NEW,0 days 00:00:00
+165,00:02:25,C,inbound,False,CALLER_165,165,Rude customer service representative,173,CLOSED,1 days 19:00:00
+166,00:01:18,C,inbound,True,CALLER_166,137,Refund not processed,137,CLOSED,1 days 18:00:00
+167,00:01:58,E,inbound,True,CALLER_167,133,Package delivered to wrong address,130,CLOSED,0 days 11:00:00
+168,00:02:17,E,inbound,True,CALLER_168,149,Poor quality product,129,PENDING,0 days 00:00:00
+169,00:01:01,F,outbound,False,CALLER_169,161,Long wait time,158,CLOSED,1 days 08:00:00
+170,00:02:15,F,inbound,False,CALLER_170,127,Product not as described,160,CLOSED,1 days 09:00:00
+171,00:02:18,D,inbound,False,CALLER_171,151,Lack of follow-up,167,CLOSED,1 days 05:00:00
+172,00:01:45,E,outbound,True,CALLER_172,142,Misplaced order,129,NEW,0 days 00:00:00
+173,00:01:48,D,inbound,True,CALLER_173,143,Billing discrepancy,143,RESOLVED,0 days 00:00:00
+174,00:01:37,E,outbound,True,CALLER_174,159,Unprofessional behavior,150,NEW,0 days 00:00:00
+175,00:01:39,D,outbound,True,CALLER_175,131,Unprofessional behavior,161,PENDING,0 days 00:00:00
+176,00:01:01,A,outbound,True,CALLER_176,170,Package delivered to wrong address,132,PENDING,0 days 00:00:00
+177,00:01:21,C,inbound,False,CALLER_177,179,Inaccurate information provided,179,PENDING,0 days 00:00:00
+178,00:01:23,D,outbound,True,CALLER_178,169,Lack of follow-up,124,PENDING,0 days 00:00:00
+179,00:02:07,A,outbound,True,CALLER_179,138,Unresolved issue,154,PENDING,0 days 00:00:00
+180,00:02:00,E,inbound,True,CALLER_180,163,Shipping delay,125,PENDING,0 days 00:00:00
+181,00:01:23,A,inbound,False,CALLER_181,126,Incorrect charges,126,PENDING,0 days 00:00:00
+182,00:01:28,F,inbound,True,CALLER_182,178,Billing discrepancy,168,CLOSED,1 days 21:00:00
+183,00:01:14,E,inbound,False,CALLER_183,141,Misplaced order,142,PENDING,0 days 00:00:00
+184,00:02:17,F,outbound,True,CALLER_184,135,Incorrect charges,135,RESOLVED,0 days 00:00:00
+185,00:01:38,F,inbound,True,CALLER_185,140,Difficulty reaching customer support,135,RESOLVED,0 days 00:00:00
+186,00:01:22,A,inbound,True,CALLER_186,180,Wrong item received,168,CLOSED,0 days 06:00:00
+187,00:02:08,E,inbound,True,CALLER_187,137,Poor communication,137,CLOSED,1 days 15:00:00
+188,00:02:10,D,outbound,True,CALLER_188,149,Inaccurate information provided,158,PENDING,0 days 00:00:00
+189,00:01:14,E,outbound,True,CALLER_189,174,Package never arrived,172,RESOLVED,0 days 00:00:00
+190,00:02:00,F,outbound,False,CALLER_190,160,Incorrect order,135,PENDING,0 days 00:00:00
+191,00:01:26,E,outbound,True,CALLER_191,181,Slow response time,176,NEW,0 days 00:00:00
+192,00:02:23,E,outbound,True,CALLER_192,173,Inaccurate information provided,129,CLOSED,1 days 18:00:00
+193,00:01:16,C,inbound,True,CALLER_193,139,Inaccurate information provided,139,PENDING,0 days 00:00:00
+194,00:02:03,C,inbound,False,CALLER_194,155,Unauthorized charges,124,CLOSED,2 days 00:00:00
+195,00:02:15,F,inbound,False,CALLER_195,126,Poor quality product,162,RESOLVED,0 days 00:00:00
+196,00:01:55,F,outbound,False,CALLER_196,150,Inaccurate information provided,150,PENDING,0 days 00:00:00
+197,00:02:06,A,outbound,False,CALLER_197,142,Package delivered to wrong address,144,NEW,0 days 00:00:00
+198,00:01:30,D,inbound,False,CALLER_198,166,Unsatisfactory resolution,166,PENDING,0 days 00:00:00
+199,00:01:36,A,outbound,False,CALLER_199,124,Slow response time,135,RESOLVED,0 days 00:00:00
+200,00:01:19,D,outbound,True,CALLER_200,135,Product damaged during shipping,135,CLOSED,1 days 08:00:00
+201,00:02:02,A,outbound,True,CALLER_201,157,Lack of follow-up,148,CLOSED,1 days 21:00:00
+202,00:02:23,D,outbound,True,CALLER_202,179,Refund not processed,162,PENDING,0 days 00:00:00
+203,00:01:23,D,outbound,True,CALLER_203,129,Incorrect charges,129,CLOSED,0 days 18:00:00
+204,00:02:24,E,outbound,True,CALLER_204,179,Inadequate product instructions,179,PENDING,0 days 00:00:00
+205,00:01:00,A,inbound,False,CALLER_205,166,Unauthorized charges,166,NEW,0 days 00:00:00
+206,00:01:21,A,inbound,False,CALLER_206,180,Incorrect charges,180,NEW,0 days 00:00:00
+207,00:01:40,D,outbound,False,CALLER_207,166,Poor communication,166,RESOLVED,0 days 00:00:00
+208,00:02:17,E,outbound,False,CALLER_208,133,Wrong item received,133,PENDING,0 days 00:00:00
+209,00:01:17,F,inbound,True,CALLER_209,163,Refund not processed,163,PENDING,0 days 00:00:00
+210,00:01:13,D,inbound,True,CALLER_210,131,Product not as described,156,PENDING,0 days 00:00:00
+211,00:01:03,A,inbound,True,CALLER_211,172,Inadequate product instructions,148,PENDING,0 days 00:00:00
+212,00:01:35,F,inbound,False,CALLER_212,141,Billing discrepancy,171,PENDING,0 days 00:00:00
+213,00:01:25,F,inbound,True,CALLER_213,163,Incorrect order,163,PENDING,0 days 00:00:00
+214,00:01:22,D,inbound,True,CALLER_214,174,Lack of follow-up,158,RESOLVED,0 days 00:00:00
+215,00:02:13,D,outbound,True,CALLER_215,163,Unprofessional behavior,163,CLOSED,0 days 23:00:00
+216,00:01:28,F,inbound,True,CALLER_216,126,Long wait time,126,NEW,0 days 00:00:00
+217,00:01:13,C,outbound,True,CALLER_217,132,Wrong item received,170,CLOSED,1 days 10:00:00
+218,00:02:16,F,outbound,True,CALLER_218,177,Incorrect charges,177,CLOSED,1 days 16:00:00
+219,00:01:31,A,outbound,True,CALLER_219,147,Difficulty reaching customer support,172,PENDING,0 days 00:00:00
+220,00:01:18,D,outbound,True,CALLER_220,152,Product not as described,152,RESOLVED,0 days 00:00:00
+221,00:01:20,F,outbound,False,CALLER_221,149,Lost package,156,RESOLVED,0 days 00:00:00
+222,00:01:46,A,outbound,False,CALLER_222,141,Unprofessional behavior,141,RESOLVED,0 days 00:00:00
+223,00:02:14,C,inbound,True,CALLER_223,159,Package never arrived,159,PENDING,0 days 00:00:00
+224,00:02:12,F,outbound,True,CALLER_224,178,Incorrect charges,142,CLOSED,1 days 05:00:00
+225,00:01:09,C,inbound,True,CALLER_225,143,Difficulty cancelling subscription,125,NEW,0 days 00:00:00
+226,00:01:18,C,inbound,True,CALLER_226,158,Inadequate product instructions,158,CLOSED,1 days 19:00:00
+227,00:01:13,C,inbound,False,CALLER_227,122,Difficulty getting a refund,156,PENDING,0 days 00:00:00
+228,00:02:16,D,inbound,False,CALLER_228,179,Unprofessional behavior,179,NEW,0 days 00:00:00
+229,00:01:34,C,inbound,False,CALLER_229,146,Package delivered to wrong address,146,CLOSED,1 days 12:00:00
+230,00:01:23,D,outbound,True,CALLER_230,163,Poor quality product,163,CLOSED,0 days 09:00:00
+231,00:01:46,A,outbound,True,CALLER_231,158,Product not delivered,129,CLOSED,1 days 18:00:00
+232,00:01:02,D,inbound,True,CALLER_232,180,Poor communication,180,CLOSED,1 days 20:00:00
+233,00:01:21,F,inbound,False,CALLER_233,174,Unresolved issue,177,CLOSED,0 days 12:00:00
+234,00:02:18,E,inbound,True,CALLER_234,163,Website not working,168,NEW,0 days 00:00:00
+235,00:01:09,A,inbound,False,CALLER_235,161,Product not delivered,164,CLOSED,1 days 09:00:00
+236,00:01:52,D,outbound,True,CALLER_236,146,Billing discrepancy,144,RESOLVED,0 days 00:00:00
+237,00:01:20,E,inbound,True,CALLER_237,141,Package never arrived,139,RESOLVED,0 days 00:00:00
+238,00:01:33,C,inbound,False,CALLER_238,169,Unresolved issue,180,CLOSED,0 days 11:00:00
+239,00:01:51,F,inbound,True,CALLER_239,165,Wrong item received,181,CLOSED,1 days 05:00:00
+240,00:02:03,F,inbound,True,CALLER_240,157,Difficulty getting a refund,156,PENDING,0 days 00:00:00
+241,00:01:14,F,outbound,True,CALLER_241,163,Difficulty reaching customer support,163,CLOSED,0 days 20:00:00
+242,00:01:17,C,outbound,False,CALLER_242,125,Product damaged during shipping,160,RESOLVED,0 days 00:00:00
+243,00:01:45,E,inbound,True,CALLER_243,133,Difficulty cancelling subscription,133,RESOLVED,0 days 00:00:00
+244,00:01:45,E,inbound,True,CALLER_244,137,Poor quality product,137,RESOLVED,0 days 00:00:00
+245,00:01:18,E,outbound,True,CALLER_245,181,Misplaced order,155,NEW,0 days 00:00:00
+246,00:01:55,A,inbound,False,CALLER_246,131,Shipping delay,131,RESOLVED,0 days 00:00:00
+247,00:01:46,C,inbound,True,CALLER_247,128,Website not working,176,NEW,0 days 00:00:00
+248,00:01:01,A,inbound,True,CALLER_248,129,Billing discrepancy,156,CLOSED,1 days 00:00:00
+249,00:01:32,A,inbound,True,CALLER_249,171,Rude customer service representative,180,PENDING,0 days 00:00:00
+250,00:01:15,D,inbound,True,CALLER_250,141,Lack of follow-up,169,NEW,0 days 00:00:00
+251,00:01:29,D,outbound,True,CALLER_251,130,Unresolved issue,179,CLOSED,1 days 00:00:00
+252,00:01:08,F,inbound,False,CALLER_252,138,Inadequate product instructions,156,PENDING,0 days 00:00:00
+253,00:01:18,F,inbound,True,CALLER_253,133,Lack of follow-up,133,NEW,0 days 00:00:00
+254,00:01:22,A,outbound,True,CALLER_254,146,Unauthorized charges,123,NEW,0 days 00:00:00
+255,00:01:00,C,inbound,True,CALLER_255,163,Inadequate product instructions,163,PENDING,0 days 00:00:00
+256,00:01:24,C,outbound,True,CALLER_256,178,Misplaced order,156,NEW,0 days 00:00:00
+257,00:01:56,D,inbound,False,CALLER_257,122,Unprofessional behavior,138,CLOSED,1 days 00:00:00
+258,00:02:18,D,inbound,True,CALLER_258,175,Lack of follow-up,175,CLOSED,0 days 23:00:00
+259,00:02:08,C,outbound,False,CALLER_259,152,Wrong item received,171,CLOSED,0 days 16:00:00
+260,00:01:34,A,inbound,True,CALLER_260,164,Long wait time,173,RESOLVED,0 days 00:00:00
+261,00:02:12,A,inbound,True,CALLER_261,133,Product damaged during shipping,133,RESOLVED,0 days 00:00:00
+262,00:01:31,A,inbound,True,CALLER_262,134,Slow response time,134,PENDING,0 days 00:00:00
+263,00:01:09,F,outbound,True,CALLER_263,140,Unhelpful support,140,PENDING,0 days 00:00:00
+264,00:01:47,F,outbound,False,CALLER_264,146,Unresolved issue,146,NEW,0 days 00:00:00
+265,00:01:36,F,inbound,True,CALLER_265,123,Website not working,123,RESOLVED,0 days 00:00:00
+266,00:02:11,C,outbound,True,CALLER_266,148,Package never arrived,148,PENDING,0 days 00:00:00
+267,00:02:28,C,inbound,True,CALLER_267,170,Unauthorized charges,170,PENDING,0 days 00:00:00
+268,00:02:19,E,inbound,True,CALLER_268,178,Inaccurate information provided,130,NEW,0 days 00:00:00
+269,00:01:31,F,inbound,True,CALLER_269,168,Shipping delay,168,NEW,0 days 00:00:00
+270,00:02:20,C,inbound,True,CALLER_270,155,Shipping delay,155,PENDING,0 days 00:00:00
+271,00:02:16,D,outbound,False,CALLER_271,133,Unprofessional behavior,137,NEW,0 days 00:00:00
+272,00:02:10,E,inbound,True,CALLER_272,135,Poor communication,127,NEW,0 days 00:00:00
+273,00:01:14,C,inbound,False,CALLER_273,142,Inaccurate information provided,147,CLOSED,0 days 18:00:00
+274,00:01:19,E,inbound,False,CALLER_274,168,Unresolved issue,124,NEW,0 days 00:00:00
+275,00:01:41,E,outbound,True,CALLER_275,152,Incorrect order,143,NEW,0 days 00:00:00
+276,00:01:40,A,outbound,True,CALLER_276,153,Inadequate product instructions,150,NEW,0 days 00:00:00
+277,00:01:50,E,outbound,False,CALLER_277,125,Product not delivered,125,PENDING,0 days 00:00:00
+278,00:01:38,A,inbound,True,CALLER_278,136,Inaccurate information provided,153,PENDING,0 days 00:00:00
+279,00:01:42,D,outbound,True,CALLER_279,171,Unresolved issue,180,CLOSED,0 days 12:00:00
+280,00:02:21,D,inbound,True,CALLER_280,121,Billing discrepancy,121,PENDING,0 days 00:00:00
+281,00:01:08,C,inbound,False,CALLER_281,174,Slow response time,174,CLOSED,0 days 09:00:00
+282,00:01:30,F,outbound,False,CALLER_282,150,Poor communication,150,NEW,0 days 00:00:00
+283,00:01:36,E,outbound,True,CALLER_283,135,Product not delivered,135,PENDING,0 days 00:00:00
+284,00:02:08,C,outbound,True,CALLER_284,159,Incorrect charges,146,NEW,0 days 00:00:00
+285,00:02:16,A,inbound,True,CALLER_285,162,Poor communication,138,CLOSED,2 days 00:00:00
+286,00:02:11,C,outbound,True,CALLER_286,150,Product not as described,139,CLOSED,0 days 06:00:00
+287,00:01:08,F,outbound,True,CALLER_287,168,Product not as described,168,PENDING,0 days 00:00:00
+288,00:01:21,E,inbound,True,CALLER_288,157,Inaccurate information provided,150,PENDING,0 days 00:00:00
+289,00:02:28,C,inbound,True,CALLER_289,133,Billing discrepancy,121,PENDING,0 days 00:00:00
+290,00:01:32,F,inbound,True,CALLER_290,173,Unhelpful support,151,PENDING,0 days 00:00:00
+291,00:01:57,A,inbound,True,CALLER_291,161,Website not working,122,PENDING,0 days 00:00:00
+292,00:01:08,C,inbound,True,CALLER_292,130,Slow response time,130,CLOSED,1 days 19:00:00
+293,00:01:59,A,inbound,False,CALLER_293,122,Unauthorized charges,126,PENDING,0 days 00:00:00
+294,00:01:03,E,inbound,False,CALLER_294,169,Difficulty cancelling subscription,169,RESOLVED,0 days 00:00:00
+295,00:01:49,A,inbound,True,CALLER_295,179,Poor quality product,179,CLOSED,1 days 01:00:00
+296,00:02:28,D,inbound,True,CALLER_296,155,Product damaged during shipping,148,PENDING,0 days 00:00:00
+297,00:02:27,F,inbound,False,CALLER_297,152,Inaccurate information provided,124,PENDING,0 days 00:00:00
+298,00:02:09,D,outbound,True,CALLER_298,122,Long wait time,122,RESOLVED,0 days 00:00:00
+299,00:02:03,C,inbound,True,CALLER_299,161,Difficulty getting a refund,127,CLOSED,0 days 22:00:00
+300,00:01:29,C,outbound,False,CALLER_300,144,Product damaged during shipping,164,PENDING,0 days 00:00:00
+301,00:02:17,E,inbound,True,CALLER_301,175,Billing discrepancy,147,PENDING,0 days 00:00:00
+302,00:02:02,E,inbound,True,CALLER_302,163,Rude customer service representative,137,NEW,0 days 00:00:00
+303,00:01:19,F,inbound,True,CALLER_303,180,Website not working,180,RESOLVED,0 days 00:00:00
+304,00:01:11,D,inbound,True,CALLER_304,168,Wrong item received,168,RESOLVED,0 days 00:00:00
+305,00:01:43,F,outbound,False,CALLER_305,181,Wrong item received,149,RESOLVED,0 days 00:00:00
+306,00:02:09,A,inbound,False,CALLER_306,171,Unresolved issue,171,CLOSED,1 days 16:00:00
+307,00:02:06,C,outbound,False,CALLER_307,137,Shipping delay,137,PENDING,0 days 00:00:00
+308,00:01:07,D,inbound,True,CALLER_308,149,Unresolved issue,149,CLOSED,1 days 01:00:00
+309,00:02:25,D,inbound,False,CALLER_309,165,Billing discrepancy,176,PENDING,0 days 00:00:00
+310,00:01:06,F,outbound,True,CALLER_310,152,Difficulty cancelling subscription,141,PENDING,0 days 00:00:00
+311,00:01:35,E,inbound,True,CALLER_311,145,Unresolved issue,126,NEW,0 days 00:00:00
+312,00:01:14,A,outbound,False,CALLER_312,140,Unauthorized charges,157,RESOLVED,0 days 00:00:00
+313,00:02:16,F,inbound,False,CALLER_313,170,Inaccurate information provided,170,CLOSED,0 days 22:00:00
+314,00:01:09,E,outbound,True,CALLER_314,181,Website not working,172,PENDING,0 days 00:00:00
+315,00:01:11,D,inbound,False,CALLER_315,140,Incorrect order,176,CLOSED,1 days 18:00:00
+316,00:01:58,A,inbound,False,CALLER_316,121,Inaccurate information provided,127,CLOSED,1 days 08:00:00
+317,00:01:25,A,inbound,True,CALLER_317,169,Incorrect order,181,CLOSED,1 days 03:00:00
+318,00:02:18,E,outbound,True,CALLER_318,176,Poor communication,166,CLOSED,1 days 18:00:00
+319,00:01:08,F,inbound,True,CALLER_319,167,Website not working,167,NEW,0 days 00:00:00
+320,00:01:23,F,outbound,True,CALLER_320,139,Refund not processed,163,PENDING,0 days 00:00:00
+321,00:01:08,C,inbound,False,CALLER_321,135,Package never arrived,164,CLOSED,1 days 19:00:00
+322,00:02:20,C,inbound,True,CALLER_322,125,Difficulty getting a refund,125,CLOSED,0 days 03:00:00
+323,00:01:36,A,outbound,True,CALLER_323,132,Unhelpful support,132,CLOSED,0 days 03:00:00
+324,00:01:35,F,inbound,True,CALLER_324,156,Package delivered to wrong address,157,CLOSED,1 days 13:00:00
+325,00:01:44,E,inbound,False,CALLER_325,181,Poor quality product,181,CLOSED,0 days 11:00:00
+326,00:02:09,D,inbound,False,CALLER_326,134,Unprofessional behavior,167,PENDING,0 days 00:00:00
+327,00:02:07,A,inbound,True,CALLER_327,172,Inadequate product instructions,148,PENDING,0 days 00:00:00
+328,00:01:54,C,inbound,False,CALLER_328,122,Incorrect charges,125,CLOSED,0 days 09:00:00
+329,00:01:15,C,outbound,True,CALLER_329,130,Lost package,130,PENDING,0 days 00:00:00
+330,00:02:22,E,outbound,False,CALLER_330,131,Product damaged during shipping,163,PENDING,0 days 00:00:00
+331,00:02:19,D,outbound,True,CALLER_331,128,Product not delivered,178,NEW,0 days 00:00:00
+332,00:01:37,F,inbound,True,CALLER_332,180,Product not delivered,160,NEW,0 days 00:00:00
+333,00:01:06,D,inbound,True,CALLER_333,156,Website not working,175,PENDING,0 days 00:00:00
+334,00:01:24,D,outbound,True,CALLER_334,173,Website not working,173,CLOSED,0 days 20:00:00
+335,00:01:51,E,inbound,False,CALLER_335,178,Wrong item received,178,RESOLVED,0 days 00:00:00
+336,00:01:19,D,inbound,True,CALLER_336,128,Unhelpful support,168,CLOSED,1 days 11:00:00
+337,00:02:00,C,outbound,False,CALLER_337,164,Misplaced order,171,RESOLVED,0 days 00:00:00
+338,00:01:42,E,inbound,True,CALLER_338,164,Wrong item received,164,PENDING,0 days 00:00:00
+339,00:01:15,C,inbound,True,CALLER_339,142,Package never arrived,181,PENDING,0 days 00:00:00
+340,00:01:10,C,outbound,True,CALLER_340,181,Refund not processed,137,PENDING,0 days 00:00:00
+341,00:02:22,A,inbound,True,CALLER_341,124,Unsatisfactory resolution,160,CLOSED,1 days 14:00:00
+342,00:02:27,F,inbound,True,CALLER_342,135,Lack of follow-up,135,CLOSED,1 days 17:00:00
+343,00:01:05,D,inbound,True,CALLER_343,179,Website not working,126,RESOLVED,0 days 00:00:00
+344,00:01:17,A,inbound,True,CALLER_344,180,Shipping delay,153,NEW,0 days 00:00:00
+345,00:01:55,F,outbound,True,CALLER_345,175,Billing discrepancy,175,NEW,0 days 00:00:00
+346,00:01:38,E,inbound,False,CALLER_346,136,Poor communication,157,CLOSED,0 days 05:00:00
+347,00:01:28,E,inbound,True,CALLER_347,129,Shipping delay,129,CLOSED,1 days 23:00:00
+348,00:02:15,D,outbound,False,CALLER_348,153,Poor quality product,124,NEW,0 days 00:00:00
+349,00:02:13,F,inbound,False,CALLER_349,148,Unauthorized charges,152,CLOSED,1 days 21:00:00
+350,00:02:07,C,inbound,False,CALLER_350,167,Long wait time,181,CLOSED,0 days 10:00:00
+351,00:01:47,A,inbound,False,CALLER_351,141,Inadequate product instructions,149,RESOLVED,0 days 00:00:00
+352,00:02:09,E,inbound,True,CALLER_352,154,Inaccurate information provided,160,PENDING,0 days 00:00:00
+353,00:02:28,F,outbound,True,CALLER_353,169,Wrong item received,158,CLOSED,0 days 12:00:00
+354,00:02:19,E,inbound,True,CALLER_354,151,Difficulty getting a refund,144,RESOLVED,0 days 00:00:00
+355,00:01:45,C,inbound,True,CALLER_355,158,Product damaged during shipping,125,PENDING,0 days 00:00:00
+356,00:02:12,C,inbound,False,CALLER_356,124,Refund not processed,124,CLOSED,1 days 01:00:00
+357,00:01:03,C,inbound,False,CALLER_357,124,Lack of follow-up,136,PENDING,0 days 00:00:00
+358,00:02:11,F,outbound,True,CALLER_358,172,Slow response time,172,PENDING,0 days 00:00:00
+359,00:01:31,F,outbound,False,CALLER_359,176,Refund not processed,176,NEW,0 days 00:00:00
+360,00:02:27,E,inbound,True,CALLER_360,163,Poor communication,163,PENDING,0 days 00:00:00
+361,00:01:23,C,outbound,True,CALLER_361,148,Slow response time,173,CLOSED,1 days 13:00:00
+362,00:01:51,E,outbound,False,CALLER_362,127,Poor communication,177,PENDING,0 days 00:00:00
+363,00:01:59,E,inbound,True,CALLER_363,155,Package delivered to wrong address,181,NEW,0 days 00:00:00
+364,00:01:32,F,inbound,True,CALLER_364,153,Misplaced order,153,CLOSED,0 days 09:00:00
+365,00:02:24,F,outbound,True,CALLER_365,148,Lack of follow-up,148,CLOSED,0 days 18:00:00
+366,00:01:54,A,outbound,False,CALLER_366,174,Product not as described,181,RESOLVED,0 days 00:00:00
+367,00:01:17,F,outbound,True,CALLER_367,176,Lost package,176,RESOLVED,0 days 00:00:00
+368,00:01:09,C,inbound,True,CALLER_368,124,Package never arrived,124,CLOSED,1 days 11:00:00
+369,00:01:23,C,inbound,True,CALLER_369,164,Misplaced order,164,CLOSED,1 days 00:00:00
+370,00:01:24,C,inbound,True,CALLER_370,173,Lack of follow-up,164,CLOSED,0 days 15:00:00
+371,00:02:21,F,inbound,False,CALLER_371,142,Long wait time,167,RESOLVED,0 days 00:00:00
+372,00:01:39,E,inbound,False,CALLER_372,169,Package never arrived,169,PENDING,0 days 00:00:00
+373,00:02:04,A,outbound,True,CALLER_373,176,Product not delivered,132,CLOSED,1 days 18:00:00
+374,00:01:26,D,inbound,False,CALLER_374,160,Misplaced order,160,RESOLVED,0 days 00:00:00
+375,00:01:32,C,inbound,False,CALLER_375,145,Product not delivered,151,RESOLVED,0 days 00:00:00
+376,00:02:15,D,inbound,True,CALLER_376,143,Lack of follow-up,143,CLOSED,1 days 00:00:00
+377,00:01:07,F,inbound,True,CALLER_377,178,Incorrect order,178,NEW,0 days 00:00:00
+378,00:01:09,A,outbound,False,CALLER_378,158,Difficulty getting a refund,137,PENDING,0 days 00:00:00
+379,00:01:57,C,inbound,False,CALLER_379,142,Incorrect order,145,PENDING,0 days 00:00:00
+380,00:02:23,C,inbound,False,CALLER_380,146,Package delivered to wrong address,174,RESOLVED,0 days 00:00:00
+381,00:01:23,C,inbound,True,CALLER_381,173,Difficulty getting a refund,152,CLOSED,0 days 05:00:00
+382,00:02:19,C,inbound,True,CALLER_382,178,Package never arrived,131,PENDING,0 days 00:00:00
+383,00:02:05,C,outbound,True,CALLER_383,165,Inaccurate information provided,165,RESOLVED,0 days 00:00:00
+384,00:02:05,A,inbound,False,CALLER_384,132,Poor communication,132,CLOSED,0 days 12:00:00
+385,00:01:49,F,inbound,False,CALLER_385,151,Long wait time,171,PENDING,0 days 00:00:00
+386,00:01:38,E,inbound,True,CALLER_386,127,Slow response time,150,CLOSED,0 days 13:00:00
+387,00:02:16,C,inbound,True,CALLER_387,142,Long wait time,126,RESOLVED,0 days 00:00:00
+388,00:01:50,A,inbound,False,CALLER_388,143,Difficulty getting a refund,143,RESOLVED,0 days 00:00:00
+389,00:02:19,E,outbound,True,CALLER_389,175,Difficulty reaching customer support,130,PENDING,0 days 00:00:00
+390,00:02:13,A,inbound,True,CALLER_390,123,Poor communication,169,RESOLVED,0 days 00:00:00
+391,00:01:44,F,inbound,True,CALLER_391,167,Refund not processed,152,CLOSED,0 days 22:00:00
+392,00:01:39,C,outbound,True,CALLER_392,166,Incorrect charges,159,RESOLVED,0 days 00:00:00
+393,00:01:32,A,inbound,True,CALLER_393,152,Poor communication,172,PENDING,0 days 00:00:00
+394,00:01:23,C,inbound,False,CALLER_394,151,Package delivered to wrong address,151,PENDING,0 days 00:00:00
+395,00:01:00,C,outbound,False,CALLER_395,144,Unsatisfactory resolution,126,NEW,0 days 00:00:00
+396,00:02:19,C,outbound,True,CALLER_396,149,Poor communication,156,CLOSED,0 days 22:00:00
+397,00:01:28,F,outbound,True,CALLER_397,125,Lost package,175,NEW,0 days 00:00:00
+398,00:01:26,F,inbound,True,CALLER_398,136,Slow response time,155,PENDING,0 days 00:00:00
+399,00:01:12,D,inbound,False,CALLER_399,136,Lack of follow-up,130,CLOSED,1 days 15:00:00
+400,00:02:28,C,inbound,True,CALLER_400,152,Shipping delay,152,PENDING,0 days 00:00:00
+401,00:01:22,C,outbound,True,CALLER_401,132,Package delivered to wrong address,177,RESOLVED,0 days 00:00:00
+402,00:01:57,F,outbound,False,CALLER_402,132,Rude customer service representative,179,PENDING,0 days 00:00:00
+403,00:01:46,E,inbound,True,CALLER_403,150,Product damaged during shipping,176,RESOLVED,0 days 00:00:00
+404,00:01:08,E,inbound,True,CALLER_404,124,Package delivered to wrong address,127,RESOLVED,0 days 00:00:00
+405,00:01:34,E,outbound,False,CALLER_405,176,Refund not processed,157,CLOSED,1 days 07:00:00
+406,00:02:21,A,outbound,False,CALLER_406,161,Difficulty reaching customer support,129,PENDING,0 days 00:00:00
+407,00:01:34,E,inbound,True,CALLER_407,158,Unresolved issue,158,PENDING,0 days 00:00:00
+408,00:01:04,D,inbound,True,CALLER_408,177,Poor quality product,143,CLOSED,1 days 23:00:00
+409,00:01:06,C,outbound,False,CALLER_409,179,Poor quality product,140,RESOLVED,0 days 00:00:00
+410,00:02:08,A,inbound,True,CALLER_410,167,Difficulty getting a refund,167,PENDING,0 days 00:00:00
+411,00:01:41,F,inbound,False,CALLER_411,168,Difficulty getting a refund,138,PENDING,0 days 00:00:00
+412,00:01:57,C,inbound,False,CALLER_412,176,Poor quality product,145,PENDING,0 days 00:00:00
+413,00:01:07,A,inbound,True,CALLER_413,122,Lost package,143,PENDING,0 days 00:00:00
+414,00:02:22,D,inbound,True,CALLER_414,175,Package never arrived,149,CLOSED,1 days 06:00:00
+415,00:02:21,D,inbound,True,CALLER_415,122,Unsatisfactory resolution,130,PENDING,0 days 00:00:00
+416,00:02:08,F,outbound,True,CALLER_416,152,Wrong item received,158,RESOLVED,0 days 00:00:00
+417,00:02:03,C,inbound,False,CALLER_417,161,Package never arrived,156,PENDING,0 days 00:00:00
+418,00:01:25,E,inbound,False,CALLER_418,160,Poor communication,156,PENDING,0 days 00:00:00
+419,00:01:16,A,inbound,True,CALLER_419,144,Inaccurate information provided,178,CLOSED,1 days 08:00:00
+420,00:01:46,F,outbound,True,CALLER_420,172,Shipping delay,140,RESOLVED,0 days 00:00:00
+421,00:01:47,D,outbound,False,CALLER_421,137,Website not working,148,RESOLVED,0 days 00:00:00
+422,00:01:03,A,inbound,True,CALLER_422,160,Refund not processed,160,RESOLVED,0 days 00:00:00
+423,00:02:06,D,inbound,True,CALLER_423,122,Inaccurate information provided,133,CLOSED,0 days 04:00:00
+424,00:01:59,A,inbound,True,CALLER_424,167,Unhelpful support,158,PENDING,0 days 00:00:00
+425,00:01:03,E,outbound,False,CALLER_425,150,Incorrect order,138,PENDING,0 days 00:00:00
+426,00:01:06,A,inbound,True,CALLER_426,157,Poor communication,157,RESOLVED,0 days 00:00:00
+427,00:01:17,D,inbound,False,CALLER_427,164,Refund not processed,165,PENDING,0 days 00:00:00
+428,00:02:11,D,inbound,False,CALLER_428,175,Package delivered to wrong address,140,PENDING,0 days 00:00:00
+429,00:01:14,E,inbound,False,CALLER_429,153,Poor communication,131,RESOLVED,0 days 00:00:00
+430,00:02:21,E,outbound,False,CALLER_430,177,Wrong item received,177,CLOSED,0 days 20:00:00
+431,00:01:11,F,inbound,True,CALLER_431,167,Product not as described,180,PENDING,0 days 00:00:00
+432,00:02:27,A,inbound,True,CALLER_432,140,Unhelpful support,166,PENDING,0 days 00:00:00
+433,00:01:51,D,inbound,True,CALLER_433,137,Product not as described,137,PENDING,0 days 00:00:00
+434,00:01:42,C,outbound,True,CALLER_434,181,Website not working,181,PENDING,0 days 00:00:00
+435,00:01:44,A,inbound,True,CALLER_435,180,Difficulty getting a refund,180,PENDING,0 days 00:00:00
+436,00:01:06,C,inbound,False,CALLER_436,125,Inaccurate information provided,125,PENDING,0 days 00:00:00
+437,00:01:11,C,inbound,True,CALLER_437,159,Product damaged during shipping,150,CLOSED,2 days 00:00:00
+438,00:01:32,A,inbound,True,CALLER_438,132,Unauthorized charges,132,PENDING,0 days 00:00:00
+439,00:01:46,A,inbound,True,CALLER_439,143,Wrong item received,125,RESOLVED,0 days 00:00:00
+440,00:01:47,C,outbound,True,CALLER_440,153,Incorrect charges,153,PENDING,0 days 00:00:00
+441,00:01:22,D,outbound,False,CALLER_441,165,Unsatisfactory resolution,146,PENDING,0 days 00:00:00
+442,00:01:10,F,inbound,True,CALLER_442,158,Lost package,158,CLOSED,1 days 21:00:00
+443,00:01:04,E,inbound,True,CALLER_443,162,Slow response time,162,PENDING,0 days 00:00:00
+444,00:02:07,A,outbound,True,CALLER_444,154,Unhelpful support,169,CLOSED,1 days 12:00:00
+445,00:02:02,D,inbound,True,CALLER_445,157,Billing discrepancy,157,PENDING,0 days 00:00:00
+446,00:01:58,A,inbound,True,CALLER_446,153,Product damaged during shipping,151,PENDING,0 days 00:00:00
+447,00:01:28,C,outbound,True,CALLER_447,128,Wrong item received,173,CLOSED,0 days 16:00:00
+448,00:01:03,D,inbound,False,CALLER_448,129,Billing discrepancy,129,NEW,0 days 00:00:00
+449,00:01:34,A,inbound,True,CALLER_449,174,Unprofessional behavior,157,CLOSED,0 days 10:00:00
+450,00:02:16,E,inbound,True,CALLER_450,170,Billing discrepancy,130,NEW,0 days 00:00:00
+451,00:01:08,A,outbound,True,CALLER_451,151,Difficulty getting a refund,137,NEW,0 days 00:00:00
+452,00:01:24,A,inbound,True,CALLER_452,174,Long wait time,133,PENDING,0 days 00:00:00
+453,00:02:20,C,inbound,True,CALLER_453,172,Lack of follow-up,172,CLOSED,0 days 19:00:00
+454,00:02:24,F,inbound,True,CALLER_454,145,Unauthorized charges,141,RESOLVED,0 days 00:00:00
+455,00:02:10,A,inbound,True,CALLER_455,155,Billing discrepancy,147,RESOLVED,0 days 00:00:00
+456,00:01:45,A,inbound,False,CALLER_456,145,Inaccurate information provided,145,PENDING,0 days 00:00:00
+457,00:02:26,D,inbound,True,CALLER_457,148,Website not working,123,RESOLVED,0 days 00:00:00
+458,00:01:01,E,inbound,True,CALLER_458,124,Incorrect order,160,CLOSED,2 days 00:00:00
+459,00:01:01,F,inbound,True,CALLER_459,175,Difficulty getting a refund,136,CLOSED,0 days 09:00:00
+460,00:02:26,A,outbound,False,CALLER_460,177,Difficulty cancelling subscription,122,PENDING,0 days 00:00:00
+461,00:01:03,E,inbound,True,CALLER_461,173,Shipping delay,173,RESOLVED,0 days 00:00:00
+462,00:02:02,A,inbound,True,CALLER_462,166,Difficulty getting a refund,166,CLOSED,0 days 09:00:00
+463,00:01:51,E,inbound,True,CALLER_463,143,Poor communication,143,PENDING,0 days 00:00:00
+464,00:01:31,C,outbound,True,CALLER_464,131,Unresolved issue,131,NEW,0 days 00:00:00
+465,00:01:56,C,inbound,True,CALLER_465,135,Unauthorized charges,181,PENDING,0 days 00:00:00
+466,00:01:07,E,inbound,False,CALLER_466,149,Website not working,149,PENDING,0 days 00:00:00
+467,00:02:01,C,inbound,False,CALLER_467,153,Difficulty getting a refund,134,CLOSED,1 days 08:00:00
+468,00:01:40,F,inbound,True,CALLER_468,178,Package never arrived,178,NEW,0 days 00:00:00
+469,00:01:42,C,outbound,False,CALLER_469,132,Inaccurate information provided,132,PENDING,0 days 00:00:00
+470,00:02:21,C,outbound,False,CALLER_470,164,Billing discrepancy,143,CLOSED,0 days 15:00:00
+471,00:01:31,E,inbound,True,CALLER_471,172,Difficulty cancelling subscription,172,CLOSED,1 days 10:00:00
+472,00:02:05,E,inbound,False,CALLER_472,180,Unsatisfactory resolution,180,NEW,0 days 00:00:00
+473,00:02:20,C,inbound,False,CALLER_473,178,Lost package,178,PENDING,0 days 00:00:00
+474,00:01:57,C,inbound,True,CALLER_474,151,Package delivered to wrong address,167,RESOLVED,0 days 00:00:00
+475,00:01:45,F,inbound,True,CALLER_475,144,Poor communication,144,CLOSED,0 days 15:00:00
+476,00:02:16,C,outbound,True,CALLER_476,124,Rude customer service representative,135,PENDING,0 days 00:00:00
+477,00:01:18,D,outbound,True,CALLER_477,180,Long wait time,180,CLOSED,0 days 13:00:00
+478,00:01:01,C,inbound,True,CALLER_478,125,Difficulty cancelling subscription,123,PENDING,0 days 00:00:00
+479,00:02:19,C,inbound,False,CALLER_479,156,Difficulty reaching customer support,159,RESOLVED,0 days 00:00:00
+480,00:01:41,C,outbound,True,CALLER_480,128,Unauthorized charges,145,CLOSED,0 days 11:00:00
+481,00:02:15,A,outbound,True,CALLER_481,166,Incorrect charges,166,RESOLVED,0 days 00:00:00
+482,00:01:17,D,outbound,True,CALLER_482,161,Rude customer service representative,178,PENDING,0 days 00:00:00
+483,00:02:19,A,outbound,True,CALLER_483,170,Poor quality product,127,NEW,0 days 00:00:00
+484,00:01:41,A,inbound,False,CALLER_484,144,Difficulty reaching customer support,171,NEW,0 days 00:00:00
+485,00:01:33,A,inbound,True,CALLER_485,179,Inaccurate information provided,144,NEW,0 days 00:00:00
+486,00:01:42,F,inbound,True,CALLER_486,161,Unprofessional behavior,158,RESOLVED,0 days 00:00:00
+487,00:01:50,D,outbound,True,CALLER_487,132,Difficulty cancelling subscription,151,CLOSED,1 days 03:00:00
+488,00:02:07,E,outbound,False,CALLER_488,131,Billing discrepancy,156,NEW,0 days 00:00:00
+489,00:02:10,C,outbound,False,CALLER_489,158,Incorrect charges,134,PENDING,0 days 00:00:00
+490,00:01:23,E,inbound,True,CALLER_490,152,Unauthorized charges,152,PENDING,0 days 00:00:00
+491,00:01:34,E,outbound,False,CALLER_491,132,Difficulty reaching customer support,132,RESOLVED,0 days 00:00:00
+492,00:01:55,C,inbound,True,CALLER_492,181,Package delivered to wrong address,155,NEW,0 days 00:00:00
+493,00:01:23,A,inbound,True,CALLER_493,149,Difficulty getting a refund,149,RESOLVED,0 days 00:00:00
+494,00:01:46,E,inbound,True,CALLER_494,174,Wrong item received,174,NEW,0 days 00:00:00
+495,00:02:27,E,inbound,True,CALLER_495,137,Unauthorized charges,156,PENDING,0 days 00:00:00
+496,00:01:45,A,inbound,True,CALLER_496,164,Product not delivered,164,RESOLVED,0 days 00:00:00
+497,00:02:01,E,inbound,True,CALLER_497,128,Lack of follow-up,128,RESOLVED,0 days 00:00:00
+498,00:01:51,A,outbound,False,CALLER_498,149,Lack of follow-up,141,NEW,0 days 00:00:00
+499,00:01:27,A,inbound,False,CALLER_499,134,Long wait time,134,RESOLVED,0 days 00:00:00
+500,00:02:01,F,outbound,True,CALLER_500,150,Package delivered to wrong address,156,CLOSED,0 days 23:00:00
+501,00:02:21,C,inbound,True,CALLER_501,171,Product not as described,164,RESOLVED,0 days 00:00:00
+502,00:01:49,D,outbound,True,CALLER_502,177,Lack of follow-up,126,RESOLVED,0 days 00:00:00
+503,00:02:21,A,outbound,True,CALLER_503,141,Lack of follow-up,123,PENDING,0 days 00:00:00
+504,00:02:01,C,inbound,False,CALLER_504,127,Product damaged during shipping,135,CLOSED,1 days 00:00:00
+505,00:01:04,C,outbound,True,CALLER_505,173,Billing discrepancy,173,CLOSED,1 days 10:00:00
+506,00:02:13,C,inbound,False,CALLER_506,124,Difficulty cancelling subscription,130,NEW,0 days 00:00:00
+507,00:01:19,C,outbound,True,CALLER_507,155,Difficulty cancelling subscription,155,NEW,0 days 00:00:00
+508,00:02:26,D,outbound,True,CALLER_508,169,Shipping delay,166,PENDING,0 days 00:00:00
+509,00:02:10,D,inbound,True,CALLER_509,176,Poor communication,176,RESOLVED,0 days 00:00:00
+510,00:01:11,A,outbound,True,CALLER_510,170,Shipping delay,144,NEW,0 days 00:00:00
+511,00:02:18,A,inbound,True,CALLER_511,144,Website not working,144,PENDING,0 days 00:00:00
+512,00:01:01,D,inbound,False,CALLER_512,166,Lost package,166,PENDING,0 days 00:00:00
+513,00:01:51,C,outbound,True,CALLER_513,155,Misplaced order,143,PENDING,0 days 00:00:00
+514,00:01:04,D,inbound,False,CALLER_514,132,Inadequate product instructions,156,CLOSED,0 days 23:00:00
+515,00:01:03,C,outbound,True,CALLER_515,178,Incorrect charges,129,RESOLVED,0 days 00:00:00
+516,00:02:28,C,outbound,False,CALLER_516,162,Slow response time,162,CLOSED,1 days 15:00:00
+517,00:02:05,F,outbound,False,CALLER_517,135,Unhelpful support,162,CLOSED,0 days 04:00:00
+518,00:02:08,D,inbound,True,CALLER_518,154,Product not as described,180,NEW,0 days 00:00:00
+519,00:01:15,F,inbound,True,CALLER_519,150,Long wait time,144,CLOSED,1 days 11:00:00
+520,00:02:10,A,inbound,False,CALLER_520,170,Slow response time,178,PENDING,0 days 00:00:00
+521,00:02:06,F,inbound,True,CALLER_521,158,Package never arrived,158,NEW,0 days 00:00:00
+522,00:01:51,F,outbound,True,CALLER_522,133,Incorrect order,133,CLOSED,1 days 22:00:00
+523,00:02:24,F,inbound,False,CALLER_523,123,Wrong item received,123,CLOSED,0 days 20:00:00
+524,00:01:00,A,outbound,True,CALLER_524,150,Inadequate product instructions,150,CLOSED,0 days 16:00:00
+525,00:01:26,D,outbound,True,CALLER_525,137,Lack of follow-up,177,CLOSED,0 days 19:00:00
+526,00:02:17,E,inbound,True,CALLER_526,146,Difficulty cancelling subscription,166,CLOSED,0 days 08:00:00
+527,00:02:03,C,outbound,True,CALLER_527,180,Inadequate product instructions,123,NEW,0 days 00:00:00
+528,00:01:29,C,inbound,True,CALLER_528,150,Inadequate product instructions,125,RESOLVED,0 days 00:00:00
+529,00:01:26,F,outbound,True,CALLER_529,168,Inadequate product instructions,130,PENDING,0 days 00:00:00
+530,00:01:23,A,outbound,True,CALLER_530,179,Incorrect charges,179,NEW,0 days 00:00:00
+531,00:02:00,D,inbound,False,CALLER_531,165,Lack of follow-up,165,CLOSED,1 days 20:00:00
+532,00:02:13,F,inbound,True,CALLER_532,165,Refund not processed,129,RESOLVED,0 days 00:00:00
+533,00:01:22,C,inbound,False,CALLER_533,144,Shipping delay,172,PENDING,0 days 00:00:00
+534,00:01:24,A,inbound,True,CALLER_534,176,Product not as described,140,RESOLVED,0 days 00:00:00
+535,00:02:25,F,inbound,False,CALLER_535,162,Wrong item received,152,PENDING,0 days 00:00:00
+536,00:01:47,F,inbound,True,CALLER_536,157,Wrong item received,138,CLOSED,1 days 02:00:00
+537,00:02:06,C,outbound,True,CALLER_537,124,Lack of follow-up,124,PENDING,0 days 00:00:00
+538,00:01:51,D,outbound,False,CALLER_538,140,Incorrect charges,157,CLOSED,2 days 00:00:00
+539,00:01:49,F,outbound,False,CALLER_539,181,Website not working,123,PENDING,0 days 00:00:00
+540,00:01:17,C,inbound,False,CALLER_540,171,Slow response time,171,RESOLVED,0 days 00:00:00
+541,00:01:48,F,inbound,True,CALLER_541,137,Product damaged during shipping,156,PENDING,0 days 00:00:00
+542,00:01:01,D,inbound,True,CALLER_542,153,Wrong item received,123,PENDING,0 days 00:00:00
+543,00:01:47,E,inbound,True,CALLER_543,153,Incorrect charges,153,CLOSED,0 days 11:00:00
+544,00:01:25,A,inbound,True,CALLER_544,169,Unauthorized charges,169,CLOSED,1 days 15:00:00
+545,00:01:57,F,inbound,True,CALLER_545,176,Inaccurate information provided,178,CLOSED,0 days 09:00:00
+546,00:02:27,A,outbound,False,CALLER_546,125,Difficulty reaching customer support,173,PENDING,0 days 00:00:00
+547,00:01:06,F,inbound,True,CALLER_547,165,Inaccurate information provided,165,PENDING,0 days 00:00:00
+548,00:02:17,E,inbound,True,CALLER_548,124,Unprofessional behavior,124,PENDING,0 days 00:00:00
+549,00:01:12,D,inbound,True,CALLER_549,170,Billing discrepancy,133,PENDING,0 days 00:00:00
+550,00:01:58,C,outbound,False,CALLER_550,177,Long wait time,132,PENDING,0 days 00:00:00
+551,00:02:00,C,inbound,False,CALLER_551,145,Website not working,171,CLOSED,1 days 07:00:00
+552,00:01:53,F,outbound,False,CALLER_552,149,Product not as described,149,CLOSED,1 days 13:00:00
+553,00:01:26,C,inbound,True,CALLER_553,171,Unhelpful support,156,RESOLVED,0 days 00:00:00
+554,00:01:57,D,outbound,True,CALLER_554,147,Website not working,147,CLOSED,1 days 08:00:00
+555,00:01:42,E,inbound,False,CALLER_555,124,Incorrect order,172,PENDING,0 days 00:00:00
+556,00:01:38,C,inbound,True,CALLER_556,125,Product damaged during shipping,164,CLOSED,1 days 01:00:00
+557,00:01:27,C,inbound,True,CALLER_557,142,Unsatisfactory resolution,123,NEW,0 days 00:00:00
+558,00:02:03,A,inbound,True,CALLER_558,181,Long wait time,140,PENDING,0 days 00:00:00
+559,00:02:03,A,inbound,True,CALLER_559,136,Poor communication,136,NEW,0 days 00:00:00
+560,00:01:57,E,inbound,True,CALLER_560,174,Poor quality product,135,RESOLVED,0 days 00:00:00
+561,00:01:03,F,outbound,True,CALLER_561,176,Unauthorized charges,176,RESOLVED,0 days 00:00:00
+562,00:02:11,A,inbound,False,CALLER_562,141,Product not as described,141,NEW,0 days 00:00:00
+563,00:01:52,F,outbound,False,CALLER_563,157,Package delivered to wrong address,157,CLOSED,1 days 07:00:00
+564,00:01:35,F,inbound,False,CALLER_564,170,Unresolved issue,126,NEW,0 days 00:00:00
+565,00:01:48,C,outbound,True,CALLER_565,172,Incorrect order,152,PENDING,0 days 00:00:00
+566,00:01:14,F,outbound,True,CALLER_566,141,Incorrect charges,141,CLOSED,0 days 19:00:00
+567,00:02:24,E,inbound,True,CALLER_567,157,Inadequate product instructions,157,CLOSED,0 days 14:00:00
+568,00:02:22,D,inbound,False,CALLER_568,154,Lost package,163,CLOSED,1 days 15:00:00
+569,00:01:46,D,outbound,True,CALLER_569,178,Package never arrived,178,PENDING,0 days 00:00:00
+570,00:02:26,E,inbound,True,CALLER_570,131,Difficulty getting a refund,173,PENDING,0 days 00:00:00
+571,00:01:28,C,inbound,True,CALLER_571,141,Incorrect charges,167,RESOLVED,0 days 00:00:00
+572,00:01:02,A,inbound,False,CALLER_572,126,Product not delivered,154,CLOSED,0 days 23:00:00
+573,00:01:47,D,inbound,False,CALLER_573,137,Shipping delay,137,CLOSED,0 days 16:00:00
+574,00:01:40,F,inbound,False,CALLER_574,147,Lack of follow-up,147,CLOSED,1 days 09:00:00
+575,00:01:53,F,outbound,False,CALLER_575,180,Wrong item received,175,CLOSED,1 days 01:00:00
+576,00:01:59,C,inbound,False,CALLER_576,153,Long wait time,180,CLOSED,1 days 18:00:00
+577,00:01:02,E,outbound,False,CALLER_577,159,Unsatisfactory resolution,159,NEW,0 days 00:00:00
+578,00:01:12,D,inbound,True,CALLER_578,172,Lost package,172,CLOSED,1 days 08:00:00
+579,00:02:09,A,inbound,True,CALLER_579,166,Wrong item received,177,CLOSED,0 days 07:00:00
+580,00:01:12,A,inbound,False,CALLER_580,130,Wrong item received,130,PENDING,0 days 00:00:00
+581,00:01:52,C,outbound,False,CALLER_581,131,Product not delivered,168,CLOSED,1 days 07:00:00
+582,00:02:12,C,inbound,False,CALLER_582,130,Unsatisfactory resolution,130,CLOSED,1 days 12:00:00
+583,00:02:17,D,inbound,True,CALLER_583,147,Unsatisfactory resolution,145,NEW,0 days 00:00:00
+584,00:01:35,E,inbound,False,CALLER_584,158,Shipping delay,158,PENDING,0 days 00:00:00
+585,00:01:47,A,inbound,True,CALLER_585,144,Billing discrepancy,152,CLOSED,1 days 21:00:00
+586,00:02:15,C,inbound,True,CALLER_586,154,Incorrect charges,154,CLOSED,1 days 19:00:00
+587,00:01:36,D,inbound,False,CALLER_587,139,Unauthorized charges,139,PENDING,0 days 00:00:00
+588,00:01:11,D,inbound,True,CALLER_588,164,Inaccurate information provided,147,PENDING,0 days 00:00:00
+589,00:01:51,D,inbound,False,CALLER_589,142,Lack of follow-up,143,NEW,0 days 00:00:00
+590,00:02:19,F,outbound,True,CALLER_590,152,Rude customer service representative,154,PENDING,0 days 00:00:00
+591,00:01:57,E,inbound,True,CALLER_591,129,Incorrect charges,181,CLOSED,1 days 12:00:00
+592,00:01:15,E,inbound,True,CALLER_592,127,Difficulty reaching customer support,152,CLOSED,0 days 23:00:00
+593,00:02:13,E,inbound,True,CALLER_593,171,Inadequate product instructions,144,NEW,0 days 00:00:00
+594,00:01:00,D,inbound,True,CALLER_594,121,Package never arrived,158,PENDING,0 days 00:00:00
+595,00:01:45,F,inbound,True,CALLER_595,180,Difficulty getting a refund,180,NEW,0 days 00:00:00
+596,00:02:27,E,outbound,True,CALLER_596,137,Unhelpful support,169,NEW,0 days 00:00:00
+597,00:01:30,A,inbound,True,CALLER_597,159,Slow response time,159,RESOLVED,0 days 00:00:00
+598,00:01:29,F,outbound,True,CALLER_598,148,Shipping delay,150,PENDING,0 days 00:00:00
+599,00:02:26,D,inbound,False,CALLER_599,161,Website not working,148,PENDING,0 days 00:00:00
+600,00:01:43,C,outbound,False,CALLER_600,127,Wrong item received,149,RESOLVED,0 days 00:00:00
