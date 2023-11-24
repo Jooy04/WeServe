@@ -4,6 +4,7 @@ __WeServe is a call service agency that outsources customer service personnels t
 	customers, in order to listen to complaints, and get feedback of products and services they have 
  	purchased from varying companies.These calls are recorded in the *call log* sheet, with some 
  	extra details saved in the *call details* sheet.__
+
     
 ## PROJECT DESCRIPTION
 
@@ -12,11 +13,13 @@ The customer service managers would like to understand the activities of these c
 	reading the dataset, cleaning and transforming the dataset 
  	to the desired form, model a datawarehouse which aids with the business KPI measurements and analysis.
 
+
 ## TOOLS 
     1. Python
     2. Pandas
     3. DrawSQL.io
     4. vscode
+
 
 
 ## PROCESS
@@ -46,9 +49,16 @@ The customer service managers would like to understand the activities of these c
         I modelled a star datawarehouse schema based on the transformed data.
         
 
+
+
 ## DATAWAREHOUSE SCHEMA
 
-WeServe DW Modelling.PNG
+WeServe DW Modelling
+
+![DW star modelling](https://github.com/Jooy04/WeServe/blob/871890e928233d58eb925c89715be643eb4b7cb6/WeServe%20DW%20Modelling.PNG)
+
+
+
 
 
 ## KPI RESULTS
