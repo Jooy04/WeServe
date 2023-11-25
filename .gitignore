@@ -1,4 +1,5 @@
 /venv
 /create.ipynb
 /.env
-/index.py
+index.py
+utils/
