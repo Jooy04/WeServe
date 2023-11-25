@@ -60,6 +60,3 @@ WeServe DW Modelling
 
 
 
-
-## KPI RESULTS
-
